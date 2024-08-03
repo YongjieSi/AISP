@@ -1,0 +1,61 @@
+{
+    "prefix": "aisp",
+    "model": "aisp",
+    "dataset": "librispeech",
+    "memory_size": 0,
+    "memory_per_class": 0,
+    "fixed_memory": false,
+    "shuffle": false,
+    "init_cls": 5,
+    "increment": 5,
+    "shot": 5,
+    "nb_tasks": 10,
+    "update": false,
+    "model_name": "aisp",
+    "convnet_type": "aisp",
+
+    "backbone_type": "ast_audioset_10_10_0.4593",
+    "device": ["0"],
+    "seed":[0],
+
+    "train_batch_size": 25,
+    "test_batch_size": 100,
+    "mode": "train",
+    "init_epoch":100,
+    "new_epochs":50,
+
+    "init_lrate":0.001,
+    "fc_lrate":0.01,
+
+    "init_weight_decay": 5e-4,
+    "min_lr":1e-8,
+    "ffn_num":32,
+    "optimizer":"sgd",
+    "vpt_type":"shallow",
+    "prompt_token_num":5,
+    "milestones": [40],
+    "lrate_decay": 0.1,
+
+    "sample_rate": 16000,
+    "window_size": 400, 
+    "hop_size": 160,
+    "mel_bins": 128,
+    "fmin": 0,
+    "fmax": 8000, 
+    "lrate": 0.001,
+    "mixup":0,
+    "layers":12,
+    "weight_epoch":5,
+    "T":2,
+    "positive_m":0.1,
+    "margin_temp":32,
+    "sigma": true,
+    "embedding_rebuilding": true,
+    "use_margin": false,
+    "use_kd":false,
+    "blocks":6
+
+
+
+}
+
