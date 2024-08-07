@@ -1,6 +1,6 @@
 # Fully Few-shot Class-incremental Audio Classification with Adaptive Improvement of Stability and Plasticity 
 
-This repository contains the introductions to the datasets and codes used in our paper, titled "Fully Few-shot Class-incremental Audio Classification with Adaptive Improvement of Stability and Plasticity " (as shown in the section of Citation).
+This repository contains the introductions to the datasets and codes used in our paper, titled "Fully Few-shot Class-incremental Audio Classification with Adaptive Improvement of Stability and Plasticity " .
 
 ## Datasets
 
